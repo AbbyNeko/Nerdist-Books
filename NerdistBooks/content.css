@@ -1,0 +1,301 @@
+
+	@font-face{ 
+	font-family: 'codeFont';
+	src: url('font/Code_Pro_Demo-webfont.eot');
+	src: url('font/Code_Pro_Demo-webfont.woff') format('woff');
+}
+
+/* nav2 alteration */
+.nav2 {
+	position:relative;
+	top:10px;
+}
+
+/*Shopping cart */
+
+#cart h2 {
+	font-family:codeFont;
+	float:left;
+	position:relative;
+	top:-250px;
+	font-size:380%;
+	color:white;
+	padding-left:50px;
+}
+
+#container p {
+	text-align:center;
+	font-family: codeFont;
+	color:white;
+	font-size:200%;
+	position: relative;
+	left:-30%;
+}
+
+#container {
+	display:block;
+	width:65%;
+	height:500px;
+	margin-left:200px;
+	border:solid #5B23C2;
+	border-radius: 30px;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	background-color: rgba(0,0,0,0.8);
+	position:relative;
+	top:-100px;
+}
+
+/*Log On Screen */
+
+#logon {
+	display:block;
+	width:40%;
+	height:88%;
+	max-height:1000px;
+	margin-left:200px;
+	border:solid #5B23C2;
+	border-radius: 30px;
+	background-color: rgba(0,0,0,0.8);
+	position:relative;
+	top:-180px;
+	right:-16%;
+	padding: 12px;
+}
+
+#sign_in h3 {
+	font-family:codeFont;
+	text-align:center;
+	font-size:170%;
+	color:white;
+}
+
+#register h3 {
+	font-family:codeFont;
+	text-align:center;
+	font-size:170%;
+	color:white;
+}
+
+#logon form {
+	font-family:"Arial","Helvetica", "san-serif";
+	color:white;
+	font-size:16px;
+	text-align:center;
+	position:relative;
+	top:-30px;
+	margin-top:20px;
+}
+
+#login, #account{
+	color:white;
+	border-radius: 5px;
+	border: solid #5B23C2;
+	background-color: #5B23C2;
+}
+
+/*FAQ */
+#faq{
+	display:block;
+	width:60%;
+	height:600px;
+	margin-left:200px;
+	border:solid #5B23C2;
+	border-radius: 30px;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	background-color: rgba(0,0,0,0.8);
+	position:relative;
+	top:-150px;
+	right:-7%;
+}
+
+#faq h2 {
+	font-family:codeFont;
+	text-align:center;
+	font-size:250%;
+	color:white;
+}
+
+#faq ul {
+	color:white;
+	list-style:none;
+	list-style-image:none;
+}
+
+#faq li{
+	font-family: "Arial";
+	color:white;
+	padding:10px;
+	font-size: 110%;
+	text-align:center;
+	overflow-y:auto;
+	 word-wrap: break-word;
+}
+
+
+/*Contact Us */
+#contactus {
+	display:block;
+	width:60%;
+	height:60%;
+	margin-left:200px;
+	border:solid #5B23C2;
+	border-radius: 30px;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	background-color: rgba(0,0,0,0.8);
+	position:relative;
+	top:-150px;
+	right:-7%;
+}
+
+#contactus h2 {
+	font-family:codeFont;
+	text-align:center;
+	font-size:250%;
+	color:white;
+}
+
+#contactus p {
+	font-family: "Arial";
+	font-size:130%;
+	color:white;
+	padding:10px;
+	text-align:center;
+	overflow-y:auto;
+	 word-wrap: break-word;
+}
+
+/*How it all started */
+#started {
+	display:block;
+	width:60%;
+	height:740px;
+	margin-left:200px;
+	border:solid #5B23C2;
+	border-radius: 30px;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	background-color: rgba(0,0,0,0.8);
+	position:relative;
+	top:-160px;
+	right:-7%;
+}
+
+#started h2 {
+	font-family:codeFont;
+	text-align:center;
+	font-size:250%;
+	color:white;
+}
+
+#started h4 {
+	font-family: codeFont;
+	text-align: center;
+	font-size:100%;
+	color: white;
+}
+
+#started form {
+	font-family: "Arial", "san-serif";
+	font-size:130%;
+	color: white;
+	text-align: center;
+	padding: 20px;
+}
+
+#started p {
+	font-family: "Arial";
+	font-size:130%;
+	color:white;
+	padding:20px;
+	text-align:center;
+	overflow-y:auto;
+	 word-wrap: break-word;
+}
+
+#changes, #reset {
+	color:white;
+	border-radius: 5px;
+	border: solid #5B23C2;
+	background-color: #5B23C2;
+}
+
+#delete {
+	color:white;
+	border-radius: 5px;
+	border: solid red;
+	background-color: red;
+	padding: 0.5em;
+}
+
+/*About Company*/
+
+#aboutus {
+	display:block;
+	width:64%;
+	height:500px;
+	padding:10px;
+	margin-left:200px;
+	border:solid #5B23C2;
+	border-radius: 30px;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	background-color: rgba(0,0,0,0.8);
+	position:relative;
+	top:-160px;
+	right:-6%;
+}
+
+#aboutus h2 {
+	font-family:codeFont;
+	text-align:center;
+	font-size:250%;
+	color:white;
+}
+
+#aboutus p {
+	font-family: "Arial";
+	font-size:130%;
+	color:white;
+	padding:10px;
+	text-align:center;
+	overflow-y:auto;
+	 word-wrap: break-word;
+}
+
+/* xml feed */
+
+
+#feed {
+	display:block;
+	width:60%;
+	height:500px;
+	margin-left:200px;
+	border:solid #5B23C2;
+	border-radius: 30px;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	background-color: rgba(0,0,0,0.8);
+	position:relative;
+	top:-140px;
+	right:-7%;
+}
+
+#feed h3{
+	font-family:codeFont;
+	text-align:center;
+	font-size:250%;
+	color:white;
+}
+
+#feed li {
+	font-family: "Arial";
+	font-size:130%;
+	color:white;
+	padding:10px;
+	text-align:center;
+	overflow-y:auto;
+	 word-wrap: break-word;
+}

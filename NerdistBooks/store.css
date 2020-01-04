@@ -1,0 +1,363 @@
+body {
+margin:0;
+padding:0;
+max-width:100%;
+min-width: 1200px;
+background-image:url("img/bg.png");
+}
+
+
+@font-face{ 
+	font-family: 'codeFont';
+	src: url('font/Code_Pro_Demo-webfont.eot');
+	src: url('font/Code_Pro_Demo-webfont.woff') format('woff');
+}
+
+.logo  {
+	width: 20em;
+	height:12em;
+	position:relative;
+	top: -13em;
+	left:41%;
+	clear:both;
+	float:center;
+}
+
+a {
+	color:white;	
+}
+
+.nav1 input {
+	font-family:codeFont;
+	color: #5B23C2;
+	display:block;
+	border-radius: 5px;
+	border: solid white;
+	background-color: white;
+	float: right;
+	margin-top: 1em;
+	margin-right: 1em;
+}
+
+.welcome input {
+	float:left;
+	margin-left: 20px;
+	margin-top: 5px;
+	font-family:Arial, Helvetica, "san-serif";
+	color: white;
+	display:block;
+	border-radius: 5px;
+	border: solid #5B23C2;
+	background-color: #5B23C2;
+}
+
+.welcome h3 {
+	color:white;
+	margin-top:10px;
+	font-family: Arial, Helvetica, "san-serif";
+}
+
+.nav1 {
+	min-width:1300px;
+	width:100%;
+	height:10em;
+	padding:0;
+	background:#5B23C2;
+	box-shadow:3px 3px 4px #505050 ;
+	float:left;
+	position:relative;
+	top:-1em;
+}
+
+
+.nav2 {
+	min-width:1300px;
+	width:100%;
+	height:10em;
+	margin:0;
+	padding:0;
+	background:#5B23C2;
+	position: relative;
+	clear:both;
+	float:left;
+    box-shadow: inset 0 20px 20px -20px rgba(0,0,0,0.8);
+}
+
+
+.nav1 ul {
+	list-style:none;
+}
+
+.nav1 li {
+	font-size:100%;
+	font-family: codeFont;
+	display:inline-block;  /*makes horizontal bar */
+	padding: 0px 40px;
+	position:relative;
+	top:80%;
+	float:left;
+}
+
+#right-item, #right-item2 {
+float:right;
+}
+
+#right-item2 {
+	top:80.5%;
+}
+
+.nav1 li a {
+	color: white;
+	text-decoration: none;
+}
+
+.footer {
+	font-family:"Arial";
+	color:white;
+	font-size:60%;
+	position:relative;
+	text-align:center;
+	bottom: -30px;
+
+}
+
+.footer a {
+	text-decoration:none;
+	color:white;
+}
+
+.feed {
+	position:relative;
+	top:-90px;
+	float:right;
+	clear:both;
+	padding-right:30px;
+}
+
+.bottom ul {
+	list-style:none;
+
+}
+
+.bottom li {
+	font-size:80%;
+	font-family: codeFont;
+	display:inline-block;
+	margin-top:15px;
+}
+
+.bottom li a {
+	color: white;
+	text-decoration: none;
+	position:relative;
+	right:-300px;
+	padding-right:50px;
+}
+
+
+/*code for drop down menu all below*/
+.nav1 li:hover > a, .nav1 .current-item > a {
+    text-decoration:none;
+}
+ 
+ 
+/*----- Top Level -----*/
+.nav1 > ul > li {
+    float:left;
+    display:inline-block;
+    position:relative;
+}
+ 
+.nav1 > ul > li > a {
+    padding:15px 55px;
+    text-shadow:0px 1px 0px rgba(0,0,0,0.4);
+}
+ 
+.nav1> ul > li:hover > a, .nav1 > ul > .current-item > a {
+    background:#1b2061;
+}
+ 
+/*----- Bottom Level -----*/
+.nav1 li:hover .sub-menu1 {
+    z-index:1;
+    opacity:1;
+}
+ 
+.sub-menu1 {
+    width:101%;
+	height: 200px;
+    position:absolute;
+    top:100%;
+	left:5%;
+    z-index:-1;
+    opacity:0;
+    transition:opacity linear 0.15s;
+    box-shadow:0px 2px 3px rgba(0,0,0,0.2);
+    background:#5B23C2;
+}
+ 
+.sub-menu1 li {
+    display:block;
+}
+ 
+.sub-menu1 li a {
+	padding-bottom:5px;
+	padding-top: 5px;
+    display:block;
+    text-decoration: none;
+    font-size: 80%;
+	position:relative;
+	top:-140px;
+	left:-30px;
+}
+ 
+.sub-menu1 li a:hover, .sub-menu .current-item a {
+    background:#131747;
+    width:105%;
+}
+.nav1 li:hover .sub-menu2 {
+    z-index:1;
+    opacity:1;
+}
+
+.sub-menu2 {
+    width:105%;
+	height: 130px;
+    position:absolute;
+    top:100%;
+	left:-10px;
+    z-index:-1;
+    opacity:0;
+    transition:opacity linear 0.15s;
+    box-shadow:0px 2px 3px rgba(0,0,0,0.2);
+    background:#5B23C2;
+}
+ 
+.sub-menu2 li {
+    display:block;
+}
+ 
+.sub-menu2 li a {
+	padding-bottom:5px;
+	padding-top: 5px;
+    display:block;
+    text-decoration: none;
+    font-size: 80%;
+	position:relative;
+	top:-90px;
+	left:-30px;
+}
+ 
+.sub-menu2 li a:hover, .sub-menu .current-item a {
+    background:#131747;
+    width:105%;
+}
+
+.nav1 li:hover .sub-menu3 {
+    z-index:1;
+    opacity:1;
+}
+
+.sub-menu3 {
+    width:100%;
+	height: 80px;
+    position:absolute;
+    top:100%;
+	left:-10px;
+    z-index:-1;
+    opacity:0;
+    transition:opacity linear 0.15s;
+    box-shadow:0px 2px 3px rgba(0,0,0,0.2);
+    background:#5B23C2;
+}
+ 
+.sub-menu3 li {
+    display:block;
+}
+ 
+.sub-menu3 li a {
+	padding-bottom:5px;
+	padding-top: 5px;
+    display:block;
+    text-decoration: none;
+    font-size: 80%;
+	position:relative;
+	top:-40px;
+	left:-30px;
+}
+ 
+.sub-menu3 li a:hover, .sub-menu .current-item a {
+    background:#131747;
+    width:105%;
+}
+
+
+/* Banner for home page */
+
+.welcome {
+	background-color:rgba(0,0,0,0.5);
+	width:100%;
+	height:30.8em;
+	position: absolute;
+	top:168px;
+}
+
+.welcome h1 {
+	color:white;
+	font-family:codeFont;
+	position: relative;
+	top:28%;
+	padding-left:5%;
+	text-align:center;
+	font-size: 330%;
+	padding-bottom:10px;
+	text-shadow: 3px 3px 3px #101010;
+}
+
+.welcome h2 {
+	color:white;
+	font-family:codeFont;
+	text-align:center;
+	font-size: 120%;
+	position:relative;
+	top:30%;
+	padding-left:17%;
+	text-shadow: 3px 3px 3px #101010;
+}
+
+#banner{
+	width: 100%;
+	height: 30.8em;
+	position:relative;
+	top:-220px;
+	left:-0.1%;
+	box-shadow: 3px 3px 3px #484848 ;
+}
+
+/* updates section */
+.update {
+	display:block;
+	position: relative;
+	top: -180px;
+}
+
+.update h4 {
+	color:white;
+	font-family:codeFont;
+	text-align:center;
+	font-size:120%;
+	text-shadow: 3px 3px 3px #101010;
+}
+
+.update ul{
+	color: white;
+	font-family: "Arial";
+	text-align: center;
+	list-style-position:inside;
+	text-shadow: 3px 3px 3px #101010;
+}
+
+.update li {
+	padding:5px;
+	margin-top:0;
+}

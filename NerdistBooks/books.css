@@ -1,0 +1,104 @@
+	@font-face { 
+	font-family: 'codeFont';
+	src: url('font/Code_Pro_Demo-webfont.eot');
+	src: url('font/Code_Pro_Demo-webfont.woff') format('woff');
+}
+
+#books figure{
+display:inline-block;
+position:relative;
+top:-100px;
+margin-right:5px;
+padding:0;
+}
+
+#books h2 {
+	color:white;
+	font-family:codeFont;
+	position: absolute;
+	float:left;
+	top:155px;
+	font-size: 380%;
+	padding-left:40px;
+}
+
+#books figcaption {
+	text-align:center;
+	color:white;
+	font-family: "Arial";
+	padding:5px;
+}
+
+/*alteration to nav 2*/
+.nav2{
+	position: relative;
+	top:140px;
+}
+
+/* Comics */
+#comics figure{
+display:inline-block;
+position:relative;
+top:-100px;
+margin-right:5px;
+padding:0;
+}
+
+#comics h2 {
+	color:white;
+	font-family:codeFont;
+	position: absolute;
+	float:left;
+	top:155px;
+	font-size: 380%;
+	padding-left:40px;
+}
+
+#comics figcaption {
+	text-align:center;
+	color:white;
+	font-family: "Arial";
+	padding:5px;
+}
+
+/* Manga */
+
+#manga figure{
+display:inline-block;
+position:relative;
+top:-100px;
+margin-right:5px;
+padding:0;
+}
+
+#manga h2 {
+	color:white;
+	font-family:codeFont;
+	position: absolute;
+	float:left;
+	top:155px;
+	font-size: 380%;
+	padding-left:40px;
+}
+
+#manga figcaption {
+	text-align:center;
+	color:white;
+	font-family: "Arial";
+	padding:5px;
+}
+
+/* all cart buttons */
+
+input {
+	font-family:"Arial";
+	color: white;
+	display:block;
+	border-radius: 5px;
+	border: solid #5B23C2;
+	background-color: #5B23C2;
+}
+
+/* hover info box */
+
+

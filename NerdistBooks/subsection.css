@@ -1,0 +1,357 @@
+	@font-face { 
+	font-family: 'codeFont';
+	src: url('font/Code_Pro_Demo-webfont.eot');
+	src: url('font/Code_Pro_Demo-webfont.woff') format('woff');
+}
+
+/* all cart buttons */
+
+input {
+	font-family:"Arial";
+	color: white;
+	display:block;
+	border-radius: 5px;
+	border: solid #5B23C2;
+	background-color: #5B23C2;
+}
+
+/* hover info box */
+
+
+
+/* action */
+#action figure{
+display:inline-block;
+position:relative;
+top:-60px;
+margin-right:5px;
+padding-left:0;
+float:left;
+}
+
+#action h2 {
+	color:white;
+	font-family:codeFont;
+	position: absolute;
+	float:left;
+	top:19%;
+	font-size: 380%;
+	padding-left:40px;
+}
+
+#action figcaption {
+	text-align:center;
+	color:white;
+	font-family: "Arial";
+	padding:5px;
+}
+
+/* fantasy */
+#fantasy figure{
+display:inline-block;
+position:relative;
+top:-60px;
+margin-right:5px;
+padding-left:0;
+float:left;
+}
+
+#fantasy h2 {
+	color:white;
+	font-family:codeFont;
+	position: absolute;
+	float:left;
+	top:20%;
+	font-size: 380%;
+	padding-left:40px;
+}
+
+#fantasy figcaption {
+	text-align:center;
+	color:white;
+	font-family: "Arial";
+	padding:5px;
+}
+
+/* Horror */
+#horror figure{
+display:inline-block;
+position:relative;
+top:-60px;
+margin-right:5px;
+padding-left:0;
+float:left;
+}
+
+#horror h2 {
+	color:white;
+	font-family:codeFont;
+	position: absolute;
+	float:left;
+	top:20%;
+	font-size: 380%;
+	padding-left:40px;
+}
+
+#horror figcaption {
+	text-align:center;
+	color:white;
+	font-family: "Arial";
+	padding:5px;
+}
+
+/* Romance */
+#romance figure{
+display:inline-block;
+position:relative;
+top:-60px;
+margin-right:5px;
+padding-left:0;
+float:left;
+}
+
+#romance h2 {
+	color:white;
+	font-family:codeFont;
+	position: absolute;
+	float:left;
+	top:20%;
+	font-size: 380%;
+	padding-left:40px;
+}
+
+#romance figcaption {
+	text-align:center;
+	color:white;
+	font-family: "Arial";
+	padding:5px;
+}
+
+/* Sci-fi */
+#scifi figure{
+display:inline-block;
+position:relative;
+top:-60px;
+margin-right:5px;
+padding-left:0;
+float:left;
+}
+
+#scifi h2 {
+	color:white;
+	font-family:codeFont;
+	position: absolute;
+	float:left;
+	top:20%;
+	font-size: 380%;
+	padding-left:40px;
+}
+
+#scifi figcaption {
+	text-align:center;
+	color:white;
+	font-family: "Arial";
+	padding:5px;
+}
+
+/* series */
+#series figure{
+display:inline-block;
+position:relative;
+top:-60px;
+margin-right:5px;
+padding-left:0;
+float:left;
+}
+
+#series h2 {
+	color:white;
+	font-family:codeFont;
+	position: absolute;
+	float:left;
+	top:20%;
+	font-size: 380%;
+	padding-left:40px;
+}
+
+#series figcaption {
+	text-align:center;
+	color:white;
+	font-family: "Arial";
+	padding:5px;
+}
+
+/* nav 2 change */
+.nav2 {
+	position:relative;
+	top:800px;
+}
+
+/* bestselling comics */
+#bestsell figure{
+display:inline-block;
+position:relative;
+top:-60px;
+margin-right:5px;
+padding-left:0;
+float:left;
+}
+
+#bestsell h2 {
+	color:white;
+	font-family:codeFont;
+	position: absolute;
+	float:left;
+	top:20%;
+	font-size: 380%;
+	padding-left:40px;
+}
+
+#bestsell figcaption {
+	text-align:center;
+	color:white;
+	font-family: "Arial";
+	padding:5px;
+}
+
+/* antihero comics */
+#antihero figure{
+display:inline-block;
+position:relative;
+top:-60px;
+margin-right:5px;
+padding-left:0;
+float:left;
+}
+
+#antihero h2 {
+	color:white;
+	font-family:codeFont;
+	position: absolute;
+	float:left;
+	top:20%;
+	font-size: 380%;
+	padding-left:40px;
+}
+
+#antihero figcaption {
+	text-align:center;
+	color:white;
+	font-family: "Arial";
+	padding:5px;
+}
+
+/* hero comics */
+#hero figure{
+display:inline-block;
+position:relative;
+top:-60px;
+margin-right:5px;
+padding-left:0;
+float:left;
+}
+
+#hero h2 {
+	color:white;
+	font-family:codeFont;
+	position: absolute;
+	float:left;
+	top:20%;
+	font-size: 380%;
+	padding-left:40px;
+}
+
+#hero figcaption {
+	text-align:center;
+	color:white;
+	font-family: "Arial";
+	padding:5px;
+}
+
+/* villain comics */
+#villains figure{
+display:inline-block;
+position:relative;
+top:-60px;
+margin-right:5px;
+padding-left:0;
+float:left;
+}
+
+#villains h2 {
+	color:white;
+	font-family:codeFont;
+	position: absolute;
+	float:left;
+	top:20%;
+	font-size: 380%;
+	padding-left:40px;
+}
+
+#villains figcaption {
+	text-align:center;
+	color:white;
+	font-family: "Arial";
+	padding:5px;
+}
+
+/* shoujo manga */
+#shoujo figure{
+display:inline-block;
+position:relative;
+top:-60px;
+margin-right:5px;
+padding-left:0;
+float:left;
+}
+
+#shoujo h2 {
+	color:white;
+	font-family:codeFont;
+	position: absolute;
+	float:left;
+	top:20%;
+	font-size: 380%;
+	padding-left:40px;
+}
+
+#shoujo figcaption {
+	text-align:center;
+	color:white;
+	font-family: "Arial";
+	padding:5px;
+}
+
+/* shounen manga */
+#shounen figure{
+display:inline-block;
+position:relative;
+top:-60px;
+margin-right:5px;
+padding-left:0;
+float:left;
+}
+
+#shounen h2 {
+	color:white;
+	font-family:codeFont;
+	position: absolute;
+	float:left;
+	top:20%;
+	font-size: 380%;
+	padding-left:40px;
+}
+
+#shounen figcaption {
+	text-align:center;
+	color:white;
+	font-family: "Arial";
+	padding:5px;
+}
+
+/* nav2 alteration */
+
+.nav2 {
+	position:relative;
+	top:100px;
+}
